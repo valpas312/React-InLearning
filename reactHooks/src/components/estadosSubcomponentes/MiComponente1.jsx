@@ -21,6 +21,13 @@ const MiComponente1 = () => {
             </div>
         )})
     }
+    <button onClick={() => {setOpciones([...opciones, { id: opciones.length + 1, name: "Opcion " + (opciones.length + 1) }])}}>
+    Agregar opcion
+    </button>
+
+    <button onClick={() => {setOpciones([...opciones.slice(0, -1)])}}>
+    Eliminar opcion
+    </button>
   </>;
 };
 
