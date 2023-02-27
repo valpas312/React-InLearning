@@ -1,5 +1,7 @@
 import './App.css'
-import Contenedor from './components/useContext/Contenedor'
+import MiComponente5 from './components/useMemo y callback/MiComponente5'
+// Importacion de componente de prueba useContext y useReducer
+// import Contenedor from './components/useContext/Contenedor'
 // Importacion de componente de prueba dataRefresh
 // import MiComponente3 from './components/useEffect/dataRefresh/MiComponente3'
 // Importacion de componente de prueba useEffect
@@ -17,7 +19,8 @@ function App() {
       {/* <MiComponente1/> */}
       {/* <MiComponente2/> */}
       {/* <MiComponente3/> */}
-      <Contenedor/>
+      {/* <Contenedor/> */}
+      <MiComponente5/>
     </div>
   )
 }
