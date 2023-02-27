@@ -1,5 +1,5 @@
 import './App.css'
-import MiComponente5 from './components/useMemo y callback/MiComponente5'
+import MiComponente5 from './components/useMemo/MiComponente5'
 // Importacion de componente de prueba useContext y useReducer
 // import Contenedor from './components/useContext/Contenedor'
 // Importacion de componente de prueba dataRefresh
