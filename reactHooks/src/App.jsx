@@ -1,5 +1,7 @@
 import './App.css'
-import MiComponente5 from './components/useMemo/MiComponente5'
+import MiComponente6 from './components/customHooks/MiComponente6'
+// Importacion de componente de prueba useMemo
+// import MiComponente5 from './components/useMemo/MiComponente5'
 // Importacion de componente de prueba useContext y useReducer
 // import Contenedor from './components/useContext/Contenedor'
 // Importacion de componente de prueba dataRefresh
@@ -20,7 +22,8 @@ function App() {
       {/* <MiComponente2/> */}
       {/* <MiComponente3/> */}
       {/* <Contenedor/> */}
-      <MiComponente5/>
+      {/* <MiComponente5/> */}
+      <MiComponente6/>
     </div>
   )
 }
