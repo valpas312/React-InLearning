@@ -20,7 +20,9 @@ const MiComponente2 = () => {
 
   return <>
     <h1 onClick={handleClick}>useEffect</h1>
-    <h2 onClick={handleClick1}>Sin efecto</h2>
+    <h2>{nombre}</h2>
+    <h3 onClick={handleClick1}>Sin efecto</h3>
+    <h4>{nombre1}</h4>
   </>;
 };
 
